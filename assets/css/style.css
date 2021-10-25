@@ -1,0 +1,207 @@
+.header {
+    width: 100%;
+    height: 110px;
+    background-color: #f7f7f7;
+    padding: 8px 15px;
+}
+
+.header #logo-pgn {
+    margin-left: 10%;
+    height: 94px;
+}
+
+.header #contact-center {
+    float: right;
+    margin-right: 10%;
+    height: 94px;
+}
+
+#line-header {
+    display: block;
+    width: 100%;
+    height: 9px;
+}
+
+#slider-gaskita {
+    display: block;
+    width: 100%;
+}
+
+.jadilah-bagian {
+    position: relative;
+    width: 100%;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.detail-area {
+    margin: 0 8%;
+    margin-bottom: 4%;
+}
+
+.div-rel {
+    position: relative !important;
+}
+
+.btn-regis-left {
+    width: 40%;
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+}
+
+.btn-regis-right {
+    width: 40%;
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+}
+
+.btn-regis-center {
+    width: 28%;
+    position: absolute;
+    right: 36%;
+    bottom: 20%;
+}
+
+.btn-faq-center {
+    width: 24%;
+    position: absolute;
+    right: 38%;
+    bottom: 0%;
+}
+
+#slider .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: white;
+    height: 100px;
+    padding: 15px 23px;
+    position: relative;
+}
+
+.footer #energy-for-life {
+    height: 69px;
+}
+
+.footer #contact-center {
+    float: right;
+    height: 69px;
+}
+
+.footer .social-media {
+    width: 38%;
+    float: right;
+    margin-top: 6px;
+    margin-right: 15px;
+}
+
+.footer .social-media a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer .social-media a:hover{
+    color: #294e81;
+}
+
+.footer .socmed-item {
+    margin-bottom: 5px;
+}
+
+.footer .socmed-symbol {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 978px) {
+    .footer .social-media a{
+        font-size: 12px;
+    }
+    .footer .socmed-symbol {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-top: 3px;
+    }
+}
+
+.footer-m {
+    background-color: white;
+    /* height: 100px; */
+    padding: 15px 23px;
+    text-align: center;
+    position: relative;
+    display: none;
+}
+
+.footer-m #energy-for-life {
+    width: 70%;
+}
+
+.footer-m #contact-center {
+    width: 30%;
+}
+
+.footer-m .social-media {
+    margin: 0 auto;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.footer-m .social-media a{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+
+.footer-m .social-media a:hover{
+    color: #294e81;
+}
+
+.footer-m .socmed-item {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.footer-m .socmed-symbol {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    /* float: left; */
+    margin-right: 5px;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 872px) {
+    .header {
+        height: 95px;
+    }
+
+    .header #logo-pgn {
+        height: 78px;
+    }
+
+    .header #contact-center {
+        height: 78px;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer-m {
+        display: block;
+    }
+}
