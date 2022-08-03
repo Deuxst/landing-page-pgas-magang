@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("deuxst/pgas-web")
+       app = docker.build("deuxst/landing-page-pgas")
     }
 
     stage('Test image') {
