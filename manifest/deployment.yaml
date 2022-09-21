@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: pgas-web
+  name: pgas-web
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: pgas-web
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: pgas-web
+    spec:
+      containers:
+      - image: deuxst/landing-page-pgas:1
+        name: pgas-web
+        resources: {}
+status: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pgas-web-service
+  labels:
+    app: pgas-web-service
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 81
+  selector:
+    app: pgas-web
